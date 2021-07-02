@@ -1,0 +1,19 @@
+body{
+    background-color: lightsteelblue;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.box i{
+    margin: 10px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 3px 8px 10px rgba(2, 2, 2, 0.315), -3px --5px 8px rgba(255, 255, 255, 0.842);
+}
+.box i:hover{
+    box-shadow: -3px --4px 10px rgba(2, 2, 2, 0.315);
+}
